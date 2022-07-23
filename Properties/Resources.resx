@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_4Pokemon_Go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\4Pokemon Go.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12Neil_Armstrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\12Neil Armstrong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="topLeads1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\topLeads1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12__dubai_united_arab_emirates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\12. dubai-united-arab-emirates.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19Los_Angeles_Lakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\19Los Angeles Lakers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Saudi_Arabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Saudi Arabia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HuTaoSay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\HuTaoSay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16Among_Us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\16Among Us.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10__Grand_Palace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\10. Grand Palace.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Soccer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\1Soccer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12Hockey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\12Hockey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Asia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Asia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15Chile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15Chile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11Sky_Children_of_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\11Sky Children of Light.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Dumbo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\4Dumbo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\6Yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Roblox_Mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\7Roblox Mobile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Portuguese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\4Portuguese.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18Antartica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18Antartica.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Baseball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\8Baseball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Tennis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\7Tennis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Olmec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\7Olmec.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Adolf_Hitler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\8Adolf Hitler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20__Clash_Of_Clans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\20. Clash Of Clans.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8__The_Pyramid_of_Giza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\8. The Pyramid of Giza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13Bicycle_race" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\13Bicycle race.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3__Zhongli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\3. Zhongli.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12The_Room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\12The Room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16LapuLapu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\16LapuLapu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neon_Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\Neon_Cat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15__genshin_impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\15. genshin-impact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14mice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\14mice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Arena_of_Valor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\2Arena of Valor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18AkkadianEmpire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\18AkkadianEmpire.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Puzzles_and_Dragons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\3Puzzles and Dragons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Sahara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Sahara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5__Bennett" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\5. Bennett.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\18yellow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marachibidance_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\marachibidance_t.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Monster_Strike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\1Monster Strike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16The_Little_Mermaid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\16The Little Mermaid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6__Tony_Stark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\6. Tony Stark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18The_New_York_Knicks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\18The New York Knicks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11King_Philip_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\11King Philip II.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Tangled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\8Tangled.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11__Mount_Fuji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\11. Mount Fuji.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13Greenland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13Greenland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19Sahara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19Sahara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Minions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\10Minions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Stardew_Valley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\9Stardew Valley.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14__Taj_Mahal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\14. Taj Mahal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Ratatouille" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\6Ratatouille.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9__Eiffel_Tower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\9. Eiffel Tower.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Tennis_racquet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\10Tennis racquet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HuTao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\HuTao1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19Grindstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\19Grindstone.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13Balangiga_Massacre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\13Balangiga Massacre.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4__Eula_Genshin_Impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\4. Eula-Genshin-Impact.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15Hearthstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\15Hearthstone.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4National_Basketball_Association" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\4National Basketball Association.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Nevada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Nevada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Christopher_Columbus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\3Christopher Columbus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1olaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\1olaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17Crusade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\17Crusade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Genghis_Khan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\2Genghis Khan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19Simba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\19Simba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Canada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About_game_details__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\About game details (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20Inside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\20Inside.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14Sudan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14Sudan.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Vatican_City" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Vatican City.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15bear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\15bear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Liechtenstein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\3Liechtenstein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Gardenscapes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\8Gardenscapes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15Snowboarding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\15Snowboarding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\2Up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Checkered_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\5Checkered flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Cuba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Cuba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17Civilization_VI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\17Civilization VI.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19Antonio_Luna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\19Antonio Luna.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16Canada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16Canada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12Angel_Falls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12Angel Falls.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20Antartica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20Antartica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17Lion_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\17Lion King.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20Coco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\20Coco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13__tower_of_Pisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\13. tower of Pisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Cyrus_the_Great" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\6Cyrus the Great.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Kaiser_Wilhelm_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\9Kaiser Wilhelm II.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Thomas_Jefferson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\1Thomas Jefferson.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16Silver_medals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\16Silver medals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HuTaoSay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\HuTaoSay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18__Candy_Crush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\18. Candy Crush.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17Brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17Brazil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11Badminton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\11Badminton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20EmilioAguinaldo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\20EmilioAguinaldo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14A_round_of_golf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\14A round of golf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16__Mobile_Legends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\16. Mobile Legends.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Lacrosse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\2Lacrosse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2India" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2India.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14Decmber7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\14Decmber7.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17Green_Bay_Packers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\17Green Bay Packers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Year1521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\5Year1521.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20Michael_Jordan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\20Michael Jordan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Mulan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\7Mulan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Fate_Grand_Order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\6Fate Grand Order.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13Monument_Valley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\13Monument Valley.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\11red.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5KungfuPanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\5KungfuPanda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13Big_Hero_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\13Big Hero 6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7__thanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\7. thanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12fox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\12fox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Dory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\9Dory.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1__Genshin_Impact_Jean_Art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\1. Genshin-Impact_Jean_Art.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Shrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Animated films\Animated Films pics\3Shrek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Hands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Sports\9Hands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_17__Tetris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\17. Tetris.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Thales_of_Melitus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\10Thales of Melitus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15John_Wilkes_Booth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\History\History pics\15John Wilkes Booth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14Solar_ExplorerNew_Dawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\14Solar ExplorerNew Dawn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Amazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Amazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Square_Enix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\10Square Enix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18Florence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\18Florence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2__Venti_Barbatos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\2. Venti_Barbatos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19__Minecraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Pictures\19. Minecraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11Istanbul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11Istanbul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5PlayerUnknowns_Battlegrounds_Mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DataQuestions\Games\5PlayerUnknowns Battlegrounds Mobile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink Modern 3D Arcade Game Box Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Png\Pink Modern 3D Arcade Game Box Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
